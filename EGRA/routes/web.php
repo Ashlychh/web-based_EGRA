@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('login', function () {
-    return view('forms.login');
-});
+Route::get('/login', function () {
+    return view('forms.login'); // Correct path to login view
+})->name('login');

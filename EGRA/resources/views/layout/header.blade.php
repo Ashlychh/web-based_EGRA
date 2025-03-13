@@ -3,13 +3,14 @@
     .header {
         background-color: #4b2c7c;
         padding: 15px;
-        text-align: right;
+        text-align: left;
     }
 
 
     .role-btn {
         background-color: #28a745;
         color: white;
+        text-decoration: none;
         border: none;
         padding: 10px 20px;
         cursor: pointer;
@@ -19,6 +20,8 @@
     </style>
 
     <header class="header">
-            <a class="role-btn" href={{route('login')}}>Teacher/Student</a>
+            <a class="role-btn" href="{{ url('login') }}">Teacher/Student</a>
         </header>
         @yield('content')
+
+        

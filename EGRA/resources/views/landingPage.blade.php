@@ -46,30 +46,6 @@ h1 {
     font-family:sans-serif;
 }
 
-.login-form {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-
-.login-form label {
-    display: block;
-    text-align: left;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.login-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
 .btn {
     width: 100%;
     padding: 10px;
@@ -80,12 +56,6 @@ h1 {
     cursor: pointer;
 }
 
-.forgot-password {
-    display: block;
-    margin-top: 10px;
-    color: #007bff;
-    text-decoration: none;
-}
 
 
 
